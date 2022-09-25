@@ -1,6 +1,6 @@
 'use strict';
 
-let input = prompt('enter something with 5 characters:');
+let input = prompt('enter something with 5 characters:', 8);
 
 let message = '';
 if (input === null) {
@@ -14,6 +14,8 @@ if (input === null) {
 }
 
 alert(message);
+
+
 
 /*  ===== Challenges =====
   - Give "input" a default value before asking for the user input.
